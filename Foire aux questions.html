@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="DominoTrading.css"/>
+		<link rel="stylesheet" href="assets/css/jquery.css" />
+		<title> Foire aux questions-Alpha Trading School </title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	</head>
+	<body class="landing">
+
+		<!-- Header -->
+			<header class="pio">
+				
+				<h1 class="pied11">DOMINO TRADING</h1>
+		    	<h4 class="pied11">Former Les Traders a L'excellence</h4>
+			
+			</header>
+			<header id="header" class="alt">
+				<a href="#nav">Menu</a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="links">
+					<li><a href="Domino Trading.html">Acceuil</a></li>
+					<li><a href="Inscription.php">Inscription</a></li>
+					<li><a href="Nous contacter.html">Nous contacter</a></li>
+					<li><a href="Foire aux questions.html">Foire aux questions</a></li>
+				</ul>
+				
+			</nav>
+
+		<!-- Section -->
+			<section class="op">
+				<article>
+						<div class="toggle">
+							<div class="less">
+								<a  class="button-read-more button-read" href="#read"></a>
+								<h2 class="paul">Qui sommes nous?</h2>
+								<a  class="button-read-less button-read" href="#read">Replier</a>
+							</div>
+							<div class="more">
+								<p>Domino Trading  est une société de transaction bousière sur le marché des devises étrangères,<br/>implantée a Cotonou et dirigée par un trader expérimenté,réactif et qualifié.</p>
+							</div>
+						</div>
+						<div class="toggle">
+							<div class="less">
+								<a  class="button-read-more button-read" href="#read"></a>
+								<h2 class="paul">Quel rôle jouons nous?</h2>
+								<a  class="button-read-less button-read" href="#read">Replier</a>
+							</div>
+							<div class="more">
+								<p>De nombreuses oppotunités d'investissement se présentent chaque jour dans le marché<br/>spéculatif virtuel mondial, que constitue la bourse. Nous intervenons en tant que guide pour<br/>permettre aux africains de tirer profit de cette opportunité.</p>
+							</div>
+						</div>
+						<div id="toggle">
+							<div class="less">
+								<a  class="button-read-more button-read" href="#read"></a>
+								<h2 class="paul">Combien de temps dure la formation?</h2>
+								<a  class="button-read-less button-read" href="#read">Replier</a>
+							</div>
+							<div class="more">
+								<p>La formation de TRADER PRO de Domino Trading se déroule sur quartre semaines rigoureusement.<br/>Cette formation est scindée en trois parties et chaque partie couvre 1 semaine</p>
+							</div>
+						</div>
+						<div id="toggle">
+							<div class="less">
+								<a  class="button-read-more button-read" href="#read"></a>
+								<h2 class="paul">Comment obtenir l'assistance financière?</h2>
+								<a  class="button-read-less button-read" href="#read">Replier</a>
+							</div>
+							<div class="more">
+								<p>Pour obtenir une assistance financière vous devez obligatoirement suivre la formation et passer le<br/>test d'aptitude en ligne.<br/>Ensuite en fonction de votre note vous serez convoqués en ligne pour participer a un concours sur<br/>2 semaines qui se déroulera sur la plateforme iq option.<br/>Les trois premiers traders seront les lauréats et bénéficieront d'une assistance financière allant de 200 a 1000$<br/> Pour plus d'informations veuillez contacter le directeur de formation </p>
+							</div>
+						</div>	
+				</article>
+			</section>
+
+		<!-- Footer -->
+			<footer class="pied02">
+
+				
+				<p class="pied11"><< THERE IS NO FREE LUNCH>> Il n'y a pas de repas gratuit</p>
+				<p class="pied11">Notre programme de formation s'étend sur une période longue pour vous permettre d'acquérir toutes les compétences pour opérer de manière optimale.</p>
+				<p class="pied11"><a class="diep">Une seule exigence</a>: la volonté d'apprendre et de progresser.</p></p>
+				<p class="pied2"><strong>Avertissement:</strong></p>
+				<p class="pied11">Ce contenu est la propriété exclusive de <a class="diep">DOMINO INSTITUTE DMCC</a>.</p>
+				<p class="pied11">Il est donc formellement interdit de diffuser ce contenu sans une autorisation écrite de notre part.</p>
+				<p class="eipd"> <a class="deip">  2020 Copyright© DOMINO INSTITUTE DMCC,All Rights Reserved</a> <a class="pied"> Politique de Confidentialité|Mentions Légales</a></p> <br/>
+
+			</footer>
+			<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script >
+				$(function()
+				{
+					$(".more").hide();
+					jquery('.button-read-more').click(function()
+					{
+						$(this).closest('.less').addClass('active');
+						$(this).closest(".less").next().stop(true).slideDown("1000");
+					});
+					jquery('.button-read-less').click(function()
+					{
+						$(this).closest.('.less').removeClass('active');
+						$(this).closest.(".less").next().stop(true).slideUp("1000");
+					});
+				});
+			</script>
+
+	</body>
+</html>

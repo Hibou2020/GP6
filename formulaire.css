@@ -1,0 +1,18 @@
+.milieu{
+	
+border:solid;
+border-color:gray;
+background:gray;
+border-radius: 16px;
+margin-left: 400px;
+/*margin-right: 500px;*/
+width:500px;
+text-align: center;
+
+
+}
+
+.ok{
+text-align: center;
+}
+

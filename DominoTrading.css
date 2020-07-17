@@ -1,0 +1,176 @@
+
+
+#conteneur
+{
+    display: flex;
+	justify-content: space-between; 	
+}
+#logo
+{
+	display: flex;
+	justify-content: space-between; 
+    height: 400%;
+    width: 50%;
+    padding: 20px; 
+    margin-left: 20%;
+}
+.cash
+{ 
+	background-color: #d72e2e;
+	border: 20px #d72e2e solid; 
+}
+.corp
+{
+	background-image: url("alpha.jpg");
+	color: white;
+	border-top: 1px solid ;
+	border-bottom: 4px solid ;
+	font-size: 17px;
+	padding: 38px;
+}
+.papa
+{
+	border:10px orange solid;
+	background-color: orange;
+}
+.paul
+{
+	color: #d72e2e;
+}
+.pio
+{
+	border: 3px silver double;
+	color: white;
+	background-color: gray; 
+	background-image: url("logo.jpg");
+	background-repeat: no-repeat;
+	background-position: top left;
+
+}
+.pied00
+{
+    border: 3px aqua solid;
+	color: white;
+	background-color: aqua; 
+}
+#pied01
+{
+	display: flex;
+	justify-content: space-between; 
+}
+.pied02
+{
+	border: 3px gray solid;
+	color: white;
+	background-color: gray; 
+	border-top: 4px double black;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.pied1
+{
+	text-align: center;
+	color: red;
+}
+.pied11
+{
+	text-align: center;
+}
+
+.diep
+{
+	text-decoration: underline; 
+}
+.pied2
+{
+	text-align: center;
+	color: red;
+}
+.eipd
+{
+	border-top: 4px double black;
+}
+.deip
+{
+	float: left;
+}
+.pied
+{
+	float: right;
+}
+.naruto
+{
+	color: blue;
+}
+.boruto
+{
+	
+	text-align: justify;
+	padding: 20px;
+	color: white;
+	
+}
+.madara
+{
+  border: 3px teal solid; 
+  height: 400%;
+  width: 50%;
+  padding: 20px; 
+  margin-left: 45%;
+  background-color: teal;
+  margin-right: 10%;
+
+}
+.obito
+{
+  float: left;
+}
+
+
+/*Inscription*/
+#cargaison
+{
+    display: flex;
+	justify-content: space-between; 	
+	height: 400%;
+    width: 30%;
+     
+}
+#cargaisons
+{
+	display: flex;
+	justify-content: space-between; 	
+	height: 400%;
+    width: 18%;
+}
+.button
+{
+	background-color: red;
+	color: white;
+	padding: 5px;
+}
+.buttons
+{
+	background-color: orange;
+	color: white;
+	padding: 5px;
+}
+}
+#pays
+{
+	height: 25px;
+}
+
+
+/*Foire aux questions*/
+.op
+{
+	margin: 50px;
+}
+
+
+/*Nous contacter*/
+.op1
+{
+	margin-bottom: 200px;
+}
