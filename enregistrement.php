@@ -33,6 +33,7 @@
 <head>
     <meta charset="utf-8" /> 
     <title></title>
+ <meta http-equiv="X-UA-Compstible" content="ie-edge">
 </head>
 <body>
     <h1>INSCRIPTION</h1>
