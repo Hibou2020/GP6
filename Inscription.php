@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="DominoTrading.css"/>
 		<link rel="stylesheet" href="formulaire.css"/>
+		<link rel="stylesheet" href=" responsive.css"/>
 		<link rel="stylesheet" href="assets/css/jquery.css" />
 		<title>Inscription-	Domino Trading</title>
 		<meta http-equiv="X-UA-Compstible" content="ie-edge">
