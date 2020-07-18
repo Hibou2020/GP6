@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="formulaire.css"/>
 		<link rel="stylesheet" href="assets/css/jquery.css" />
 		<title>Inscription-	Domino Trading</title>
+		<meta http-equiv="X-UA-Compstible" content="ie-edge">
 	</head>
 	<body class="landing">
 
