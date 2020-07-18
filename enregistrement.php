@@ -7,7 +7,7 @@
     try
         {
             
-           $connexion = new PDO('mysql:host=localhost; dbname=id14368008_domino', 'root','@Groupe06admin');
+           $connexion = new PDO('mysql:host=localhost; dbname=id14368008_domino', 'root','');
         }
             
     catch(Exception $e)
@@ -23,7 +23,7 @@
     $insertIsOk = $pdoconnect;
     if ($insertIsOk)
         {
-            $message = 'Votre formulaire a été bien enregistrer.';
+            $message = 'Votre formulaire a été bien enregistré.';
         }
 
 ?>
