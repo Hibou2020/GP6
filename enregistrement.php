@@ -7,7 +7,7 @@
     try
         {
             
-           $connexion = new PDO('mysql:host=localhost; dbname=id14368008_domino', 'id14368008_root','@Groupe06admin');
+           $connexion = new PDO('mysql:host=localhost; dbname=id14368008_domino', 'id14368008_root','');
         }
             
     catch(Exception $e)
